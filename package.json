@@ -1,0 +1,33 @@
+{
+  "name": "notification_sys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hexy01/Notification_sys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hexy01/Notification_sys/issues"
+  },
+  "homepage": "https://github.com/Hexy01/Notification_sys#readme",
+  "dependencies": {
+    "amqplib": "^0.10.8",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "nodemailer": "^7.0.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {}
+}
