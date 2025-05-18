@@ -39,6 +39,7 @@ notification-center/
 │ └── ...
 └── README.md
 
+---
 
 
 💡 Assumptions
@@ -46,6 +47,10 @@ notification-center/
 -No authentication is implemented.
 -Frontend and backend are assumed to run on ports 3000 and 5000 respectively.
 -CORS is enabled by default.
+
+
+
+---
 
 🚀 Future Improvements
 -Use a persistent database like MongoDB or PostgreSQL
