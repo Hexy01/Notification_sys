@@ -49,6 +49,7 @@ cd <project-folder>
 
 
 ## 💡 Assumptions
+
 -The backend does not use a database. Notifications are lost on server restart.
 -No authentication is implemented.
 -Frontend and backend are assumed to run on ports 3000 and 5000 respectively.
@@ -58,7 +59,8 @@ cd <project-folder>
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
+
 -Use a persistent database like MongoDB or PostgreSQL
 -Implement user authentication and roles
 -Add WebSocket support for real-time updates
