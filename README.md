@@ -1,16 +1,6 @@
-# 🔔 Notification Center
+# 🔔 Notifications Center
 
-A full-stack **Notification Center** web application that allows users to send and view notifications. Built with **React.js** on the frontend and **Express.js** on the backend, it simulates a real-time notification system with a focus on simplicity and extendability.
-
----
-
-## 📌 Features
-
-- Post notifications (e.g., email, alert)
-- View all stored notifications
-- React-based responsive UI
-- Clean and simple API
-- In-memory storage (no database required)
+A simple full-stack notification center built with **React** (frontend) and **Express** (backend). It allows users to post and view notifications.
 
 ---
 
@@ -22,12 +12,6 @@ A full-stack **Notification Center** web application that allows users to send a
 | Backend    | Node.js + Express |
 | Styling    | CSS (custom/minimal) |
 | Data Store | In-memory Array   |
-
----
-
-# 🔔 Notifications Center
-
-A simple full-stack notification center built with **React** (frontend) and **Express** (backend). It allows users to post and view notifications.
 
 ---
 
