@@ -25,24 +25,46 @@ A full-stack **Notification Center** web application that allows users to send a
 
 ---
 
-## 📁 Project Structure
+# 🔔 Notifications Center
 
-notification-center/
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── App.jsx
-│ ├── index.js
-│ └── ...
-├── server/ # Express backend
-│ ├── index.js
-│ └── ...
-└── README.md
+A simple full-stack notification center built with **React** (frontend) and **Express** (backend). It allows users to post and view notifications.
 
 ---
 
+## 📦 Features
 
-💡 Assumptions
+- 📝 Post notifications via an API
+- 📥 View notifications on a simple UI
+- 🔄 Automatically fetch latest notifications
+- ⚙️ Backend built using Express.js
+- 🎨 Frontend built using React.js
+- 🔓 CORS enabled to allow cross-origin requests
+- 📁 Simple JSON-based in-memory data (no database)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### 🔧 Prerequisites
+
+- Node.js (v16 or later)
+- npm (comes with Node.js)
+- Git
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+```
+---
+
+
+## 💡 Assumptions
 -The backend does not use a database. Notifications are lost on server restart.
 -No authentication is implemented.
 -Frontend and backend are assumed to run on ports 3000 and 5000 respectively.
