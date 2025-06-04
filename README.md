@@ -42,7 +42,7 @@ Follow these steps to set up and run the project locally.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Hexy01/Notification_sys.git>
 cd <project-folder>
 ```
 ---
